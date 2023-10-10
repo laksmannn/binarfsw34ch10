@@ -42,8 +42,8 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
-  max-width: var(--max-width);
-  width: 100%;
+  width: var(--max-width);
+  max-width: 100%;
 }
 
 .card {
@@ -215,8 +215,9 @@
   }
 
   .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
+    filter: invert(1) drop-shadow(0 0 0.3rem black);
+    -webkit-filter: invert(1) drop-shadow(0 0 0.3rem black);
+}
 }
 
 @keyframes rotate {
